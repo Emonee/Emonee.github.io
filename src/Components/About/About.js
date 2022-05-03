@@ -19,7 +19,6 @@ export default function About() {
       </div>
       <p>Do you want to know what am I up to right now?</p>
       <Nowmodal title={rightNowData[0].title} text={rightNowData[0].text} />
-      <hr></hr>
     </section>
   )
 }

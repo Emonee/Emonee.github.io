@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container'
 import Offcanvas from 'react-bootstrap/Offcanvas'
 
 
-function NavigationBar() {
+export default function NavigationalBar() {
   const expand = 'md'
   return (
     <Navbar sticky="top" variant="light" bg="light" expand={expand}>
@@ -32,9 +32,9 @@ function NavigationBar() {
           <Offcanvas.Body>
             <Nav className="justify-content-center flex-grow-1 pe-3 fs-4">
               <Nav.Link href="#About" className='mx-2'>Who I am</Nav.Link>
-              <Nav.Link href="#action2" className='mx-2'>Projects</Nav.Link>
-              <Nav.Link href="#action3" className='mx-2'>My Formation</Nav.Link>
-              <Nav.Link href="#action4" className='mx-2'>Contact</Nav.Link>
+              <Nav.Link href="#projects" className='mx-2'>Projects</Nav.Link>
+              <Nav.Link href="#formation" className='mx-2'>My Formation</Nav.Link>
+              <Nav.Link href="#contact" className='mx-2'>Contact</Nav.Link>
             </Nav>
           </Offcanvas.Body>
         </Navbar.Offcanvas>
@@ -42,5 +42,3 @@ function NavigationBar() {
     </Navbar>
   )
 }
-
-export default NavigationBar

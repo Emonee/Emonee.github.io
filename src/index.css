@@ -1,7 +1,11 @@
 * {
   --rich-balck: #060a14;
   --oxford-blue: #0C1429;
-  --harlequin: #56F218;  
+  --harlequin: #56F218;
+}
+
+body {
+  color: white;
 }
 
 .color-green {
