@@ -1,0 +1,27 @@
+.jumbotron {
+  height: 100vh;
+  background-color: var(--rich-balck);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button {
+  border: 1px solid var(--harlequin);
+  color: white;
+}
+
+.trans {
+  transition: .35s;
+}
+
+.button:hover {
+  background-color: var(--harlequin);
+  color: var(--oxford-blue);
+  font-weight: bold;
+}
+
+.button:hover > .rotate {
+  transform: rotate(90deg);
+}
