@@ -1,6 +1,30 @@
 .contactSection {
   background-color: var(--rich-balck);
-  height: 700px;
   color: white;
-  padding: 100px;
+  padding: 50px;
+}
+
+.icon {
+  font-size: 4rem;
+  transition: .3s;
+}
+
+.icon:hover {
+  font-size: 6rem;
+}
+
+#mailIcon {
+  color: white
+}
+
+#linkedinIcon {
+  color: #0a66c2;
+}
+
+#githubIcon {
+  color: white;
+}
+
+#youtubeIcon {
+  color: #ff0000;
 }

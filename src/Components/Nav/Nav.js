@@ -22,7 +22,7 @@ export default function NavigationalBar() {
         <Navbar.Offcanvas
           id={`offcanvasNavbar-expand-${expand}`}
           aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
-          placement="end"
+          placement="top"
         >
           <Offcanvas.Header closeButton>
             <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
