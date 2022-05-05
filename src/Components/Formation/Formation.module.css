@@ -4,3 +4,21 @@
   height: 700px;
   padding: 100px;
 }
+
+.logos {
+  margin-bottom: 50px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#freeCodeCampLogo {
+  height: 38px;
+}
+
+#codaCademyLogo {
+  height: 42px;
+}
