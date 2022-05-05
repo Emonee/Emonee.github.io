@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import styles from './Nowmodal.module.css'
 
 import Button from 'react-bootstrap/Button'
 import Modal from 'react-bootstrap/Modal'
@@ -11,7 +12,7 @@ export default function Nowmodal(props) {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
+      <Button onClick={handleShow} className={styles.button}>
         Hit me here!
       </Button>
 

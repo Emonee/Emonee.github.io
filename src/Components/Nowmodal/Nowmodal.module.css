@@ -1,22 +1,18 @@
-.aboutSection {
-  padding: 100px 50px 60px 50px;
-  background-color: var(--oxford-blue);
-  color: white;
-}
-
 .button {
   border: 1px solid var(--harlequin);
   color: white;
   transition: .70s;
+  background-color: transparent;
 }
 
 .button:hover {
   background-color: var(--harlequin);
   color: var(--oxford-blue);
+  border: 1px solid var(--harlequin);
 }
 
 .button:focus {
   background-color: transparent;
-  border-color: none;
+  border-color: var(--harlequin);
   box-shadow: none;
 }
