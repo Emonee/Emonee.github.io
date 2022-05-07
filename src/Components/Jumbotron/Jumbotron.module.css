@@ -19,7 +19,6 @@
 .button:hover {
   background-color: var(--harlequin);
   color: var(--oxford-blue);
-  font-weight: bold;
 }
 
 .button:hover > .rotate {

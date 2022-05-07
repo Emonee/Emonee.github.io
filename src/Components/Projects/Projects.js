@@ -9,6 +9,8 @@ export default function Projects() {
     <section id='projects' className={styles.projects}>
       <h2>Projects 💻</h2>
       <Carousel />
+      <p>What im building right now?</p>
+      <button>Hit me! (more softly this time)</button>
     </section>
   )
 }

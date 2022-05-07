@@ -2,6 +2,8 @@ import React from "react";
 import styles from './Formation.module.css'
 
 import SkillCarousel from "../SkillsCarousel/SkillCarousel";
+import SkillsTabs from "../SkillsTabs/SkillsTabs";
+import AccordionCertifications from "../AccordionCertifications/AccordionCertifications";
 
 export default function Formation() {
   return (
@@ -14,12 +16,22 @@ export default function Formation() {
       </div>
       <h3>Skill set:</h3>
       <SkillCarousel />
+      <SkillsTabs />
       {/* basic carousel and a full list modal with tabs and progress (bar) */}
       <h3>You can see some of my capasitation here:</h3>
+      <AccordionCertifications />
       {/* acordions  from database */}
       <h3>What I'm learning right now?</h3>
+      <p>I am doing the relational data course of free code camp. This includes sql querys, postgreSQL and bash. You can visit it here: <a target="_blank" href="https://www.freecodecamp.org/learn/relational-database/" rel="noreferrer">Relational Database</a></p>
       {/* use data with: desc, link */}
       <h3>Topics I am interested in learning in the future:</h3>
+      <ul>
+        <li>Python with Django</li>
+        <li>NextJS</li>
+        <li>MongoDB</li>
+        <li>Angular</li>
+        <li>VueJS</li>
+      </ul>
       {/* list with data: desc */}
     </section>
   )
