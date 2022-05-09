@@ -1,33 +1,31 @@
 import React from "react";
 import styles from "./AccordionCertifications.module.css";
 
+import AccordionItem from "../AcordionItem/AcordionItem";
+
 import Accordion from 'react-bootstrap/Accordion'
 
+import certificatesData from "../../Data/certificatesData";
+
 export default function AccordionCertifications() {
+  const {bigCertifications, complementaryCertifications} = certificatesData
+  
+  const bigCertificationsComponents = bigCertifications.map(certification => <AccordionItem key={certification.title} title={certification.title} plataform={certification.plataform} description={certification.desc} url={certification.url}/>)
+
+  const complementaryCertificationsComponents = complementaryCertifications.map(certification => <AccordionItem key={certification.title} title={certification.title} plataform={certification.plataform} description={certification.desc} url={certification.url}/>)
+
   return (
     <Accordion flush className={styles.accordion}>
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Main stuff</Accordion.Header>
+        <Accordion.Header>Most relevant</Accordion.Header>
         <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-          cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum.
+         {bigCertificationsComponents}
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
-        <Accordion.Header>Secondary stuff</Accordion.Header>
+        <Accordion.Header>Complementary</Accordion.Header>
         <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-          cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum.
+          {complementaryCertificationsComponents}
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>

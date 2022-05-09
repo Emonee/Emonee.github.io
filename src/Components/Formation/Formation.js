@@ -22,14 +22,15 @@ export default function Formation() {
       <AccordionCertifications />
       {/* acordions  from database */}
       <h3>What I'm learning right now?</h3>
-      <p>I am doing the relational data course of free code camp. This includes sql querys, postgreSQL and bash. You can visit it here: <a target="_blank" href="https://www.freecodecamp.org/learn/relational-database/" rel="noreferrer">Relational Database</a></p>
+      <p>I am doing the relational data course of free code camp. This includes sql querys, postgreSQL and bash scripting. You can visit it here: <a target="_blank" href="https://www.freecodecamp.org/learn/relational-database/" rel="noreferrer">Relational Database</a></p>
       {/* use data with: desc, link */}
       <h3>Topics I am interested in learning in the future:</h3>
       <ul>
-        <li>Python with Django</li>
-        <li>NextJS</li>
+        <li>Python and Django</li>
         <li>MongoDB</li>
+        <li>ReduxJS</li>
         <li>Angular</li>
+        <li>NextJS</li>
         <li>VueJS</li>
       </ul>
       {/* list with data: desc */}

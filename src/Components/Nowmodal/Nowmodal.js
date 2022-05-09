@@ -13,7 +13,7 @@ export default function Nowmodal(props) {
   return (
     <>
       <Button onClick={handleShow} className={styles.button}>
-        Hit me here!
+        {props.textButton}
       </Button>
 
       <Modal show={show} onHide={handleClose}>

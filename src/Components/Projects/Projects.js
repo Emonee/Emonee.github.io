@@ -1,5 +1,7 @@
 import React from "react";
 import styles from './Projects.module.css'
+
+import Nowmodal from '../Nowmodal/Nowmodal'
 import Carousel from "../Carousel/Carousel";
 
 
@@ -10,7 +12,7 @@ export default function Projects() {
       <h2>Projects 💻</h2>
       <Carousel />
       <p>What im building right now?</p>
-      <button>Hit me! (more softly this time)</button>
+      <Nowmodal title='Hola' text='Como tamos perrinsque' textButton='Hit me! (More softly this time)' />
     </section>
   )
 }

@@ -1,6 +1,8 @@
 .accordion div {
   background-color: transparent;
   border-right: 1px solid var(--harlequin);
+  border-bottom: 1px solid var(--harlequin);
+  border-radius: 0 0 20px 0;
 }
 
 .accordion button {
