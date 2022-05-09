@@ -8,7 +8,7 @@ export default function CarouselItemProject(props) {
   return (
     <Item>
       <img
-        className="d-block w-100"
+        className="d-block w-50"
         src={props.imgUrl}
         alt="slide"
       />

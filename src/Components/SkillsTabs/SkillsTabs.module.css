@@ -10,5 +10,6 @@
 .tabs li button:hover {
   border-color: var(--harlequin) !important;
   border-bottom: 1px solid var(--oxford-blue) !important;
-  color: white;
+  background-color: var(--harlequin);
+  color: var(--rich-balck);
 }
