@@ -4,6 +4,10 @@
   color: white;
 }
 
+.aboutSection p {
+  max-width: 600px;
+}
+
 .button {
   border: 1px solid var(--harlequin);
   color: white;
@@ -16,7 +20,7 @@
 }
 
 .button:focus {
-  background-color: transparent;
+  background-color: none;
   border-color: none;
   box-shadow: none;
 }

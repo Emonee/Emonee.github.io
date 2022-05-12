@@ -2,7 +2,8 @@
 
 * {
   --rich-balck: #060a14;
-  --oxford-blue: #0C1429;
+  --oxford-blue: hsl(223, 55%, 10%);
+  --light-oxford-blue: hsl(223, 55%, 18%);
   --harlequin: #56F218;
 }
 

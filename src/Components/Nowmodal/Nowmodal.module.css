@@ -1,18 +1,14 @@
 .button {
+  padding: .375rem .75rem;
   border: 1px solid var(--harlequin);
   color: white;
   transition: .70s;
   background-color: transparent;
+  border-radius: .25rem;
 }
 
 .button:hover {
   background-color: var(--harlequin);
   color: var(--oxford-blue);
   border: 1px solid var(--harlequin);
-}
-
-.button:focus {
-  background-color: transparent;
-  border-color: var(--harlequin);
-  box-shadow: none;
 }

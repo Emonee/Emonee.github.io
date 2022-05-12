@@ -1,0 +1,18 @@
+.card {
+  padding: 1rem;
+  background-color: var(--light-oxford-blue);
+  width: 15rem;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 1rem 0;
+}
+
+.cardBody hr {
+  color: white;
+  width: 75%;
+}

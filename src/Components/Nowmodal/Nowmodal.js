@@ -12,7 +12,7 @@ export default function Nowmodal(props) {
 
   return (
     <>
-      <Button onClick={handleShow} className={styles.button}>
+      <Button onClick={handleShow} bsPrefix={styles.button}>
         {props.textButton}
       </Button>
 
