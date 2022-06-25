@@ -1,5 +1,5 @@
 const interestedTopicsData = [
-  'Python and Django', 
+  'Python and Django',
   'MongoDB',
   'ReduxJS',
   'Angular',

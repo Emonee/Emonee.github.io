@@ -19,8 +19,8 @@ const certificatesData = {
       plataform: 'Free Code Camp',
       desc: 'Fundamentals of JavaScript. Creation of algorithms, factorization of numbers and make basics calculations.',
       url: 'https://www.freecodecamp.org/certification/fccb2c4283e-bb31-4557-889e-8c21c17ba138/javascript-algorithms-and-data-structures'
-    },
+    }
   ]
 }
 
-export default certificatesData;
+export default certificatesData

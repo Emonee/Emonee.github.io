@@ -1,0 +1,40 @@
+.color-green {
+  color: var(--harlequin)
+}
+
+.color-light-oxford-blue {
+  color: var(--light-oxford-blue);
+}
+
+.button {
+  border: 1px solid var(--harlequin);
+  color: white;
+}
+
+.trans {
+  transition: .85s;
+}
+
+.button:focus {
+  background-color: none;
+  border-color: none;
+  box-shadow: none;
+}
+
+.button:hover {
+  background-color: var(--harlequin);
+  color: var(--oxford-blue);
+}
+
+.button:hover > .rotate {
+  transform: rotate(90deg);
+}
+
+.paddin-margin-reset {
+  margin: 0;
+  padding: 0;
+}
+
+.width-max-content {
+  width: max-content;
+}

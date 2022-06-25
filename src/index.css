@@ -10,11 +10,3 @@
 body {
   color: white;
 }
-
-.color-green {
-  color:var(--harlequin)
-}
-
-.color-white {
-  color: white;
-}

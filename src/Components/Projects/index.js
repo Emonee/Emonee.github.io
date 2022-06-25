@@ -1,12 +1,10 @@
-import React from "react";
+import React from 'react'
 import styles from './Projects.module.css'
 
-import Nowmodal from '../Nowmodal/Nowmodal'
-import Carousel from "../Carousel/Carousel";
+import Nowmodal from '../Nowmodal'
+import Carousel from '../Carousel'
 
-
-
-export default function Projects() {
+export default function Projects () {
   return (
     <section id='projects' className={styles.projects}>
       <h2>Projects 💻</h2>

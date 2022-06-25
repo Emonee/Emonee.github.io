@@ -1,5 +1,7 @@
 .aboutSection {
-  padding: 100px 50px 60px 50px;
+  padding: 120px 0 60px;
+  max-width: 1300px;
+  margin: 0 auto;
   background-color: var(--oxford-blue);
   color: white;
 }
@@ -8,19 +10,11 @@
   max-width: 600px;
 }
 
-.button {
-  border: 1px solid var(--harlequin);
-  color: white;
-  transition: .70s;
+.aboutSection > p {
+  width: min(80vw);
 }
 
-.button:hover {
-  background-color: var(--harlequin);
-  color: var(--oxford-blue);
-}
-
-.button:focus {
-  background-color: none;
-  border-color: none;
-  box-shadow: none;
+.sectionContainer {
+  background-color: var(--oxford-blue);
+  width: 100%;
 }
