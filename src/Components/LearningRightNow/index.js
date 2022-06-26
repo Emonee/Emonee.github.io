@@ -1,5 +1,3 @@
-import React from 'react'
-
 import learningNowData from '../../Data/learningNowData'
 
 export default function LearningRightNow () {

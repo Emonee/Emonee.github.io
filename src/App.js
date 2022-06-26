@@ -1,4 +1,3 @@
-import React from 'react'
 import Nav from './Components/Nav'
 import Jumbotron from './Components/Jumbotron'
 import About from './Components/About/'

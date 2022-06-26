@@ -11,6 +11,19 @@
   color: white;
 }
 
+.anchor-style {
+  text-decoration: none;
+}
+
+.anchor-style:hover {
+  text-decoration: underline;
+  color: var(--harlequin);
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
 .trans {
   transition: .85s;
 }

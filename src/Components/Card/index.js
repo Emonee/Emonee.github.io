@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './Card.module.css'
 import BootstrapCard from 'react-bootstrap/Card'
 import Nowmodal from '../Nowmodal'

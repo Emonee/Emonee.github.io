@@ -1,0 +1,13 @@
+.carouselCaptionStyle {
+    text-align: center;
+    margin: 0 auto;
+    width: min(600px, 80vw);
+    border: 1px solid #fff3;
+    background-color: hsla(223, 54%, 5%, 65%);
+    border-radius: 20px;
+    padding: 20px 15px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 16px;
+}

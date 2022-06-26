@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "stjs": "npx standard --fix"
+    "stjs": "standard --fix"
   },
   "eslintConfig": {
     "extends": [

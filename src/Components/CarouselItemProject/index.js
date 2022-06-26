@@ -1,5 +1,3 @@
-import React from 'react'
-
 import Caption from 'react-bootstrap/CarouselCaption'
 import Item from 'react-bootstrap/CarouselItem'
 
