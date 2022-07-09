@@ -6,11 +6,11 @@ const cardsData = [
       link: 'https://open.spotify.com/album/3DxlyKn7fkWeVsuW13sC6p?si=wA8GS1OlTxuBlFPnzo3RNQ',
       text: 'I want to listen!'
     },
-    image: 'https://th.bing.com/th/id/R.a2cc7baea463f63034844debb7a033eb?rik=3genlO9%2bidq3NQ&pid=ImgRaw&r=0'
+    image: 'https://media.istockphoto.com/photos/piano-keyboard-of-an-old-music-instrument-close-up-picture-id641307550?k=20&m=641307550&s=612x612&w=0&h=gKlkkcbL4RorlF24oNjjGv0kkZxFzUW8V9sjtJf2o2w='
   }, {
     title: 'Minimalist 🤹🏻‍♂️',
     text: "I'm the kind of person that trys to have the less things possible. I believe that life is more easy that way.",
-    image: 'https://mldlo8jxayvl.i.optimole.com/hM_8gKU-Br1kt8FO/w:auto/h:auto/q:auto/https://duckboardsandstilts.com/wp-content/uploads/2016/08/minimalism2.jpg'
+    image: 'https://media.istockphoto.com/photos/green-background-3d-render-picture-id1226478926?k=20&m=1226478926&s=612x612&w=0&h=r5NSA8Ajb6AYYT95loGNVLYcws7w8wO6KvepPrvv40U='
   }, {
     title: 'Anime (?) 😳',
     text: "I don't watch a lot of it, but I think that movies like 'Spirited Away' or 'Princess Mononoke' are just incredible, and its music is awesome! My favorite anime serie is...",
