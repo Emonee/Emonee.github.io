@@ -20,7 +20,7 @@ export default function About () {
         <p className='text-center fs-4 mx-auto'>Do you want to know what am I up to right now?</p>
         <div className='d-flex justify-content-center gap-5'>
           <Nowmodal title={rightNowData.title} text={rightNowData.text} textButton='Hit me' />
-          <a target='_blank' href='/Resources/Emiliano_Acevedo_CV.pdf' className='btn button'>Download my Resume</a>
+          <a target='_blank' href='/Resources/CV_Emiliano_Acevedo.pdf' className='btn button'>Download my Resume</a>
         </div>
       </section>
     </div>
