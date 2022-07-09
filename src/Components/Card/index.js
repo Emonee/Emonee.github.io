@@ -13,7 +13,14 @@ export default function Card (props) {
         <hr />
         <BootstrapCard.Text>
           {text}
-          {url && <a className='btn button btn button-primary d-block width-max-content mt-4 mx-auto' href={url.link}>{url.text}</a>}
+          {url &&
+            <a 
+              className='btn button btn button-primary d-block width-max-content mt-4 mx-auto'
+              href={url.link}
+              target="_blank"
+              rel="noreferrer"
+            > {url.text} 
+          </a>}
         </BootstrapCard.Text>
         {modal && <Nowmodal title={modal.title} text={modal.text} textButton={modal.buttonText} />}
       </BootstrapCard.Body>
