@@ -13,7 +13,7 @@ export default function ControlledCarousel () {
       {projectsData.map(project => (
         <Carousel.Item key={project.name}>
           <img
-            className='d-block w-35 mx-auto'
+            className={styles.image + ' d-block w-35 mx-auto'}
             src={project.imgUrl}
             alt={project.name}
           />

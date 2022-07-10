@@ -51,3 +51,25 @@
 .width-max-content {
   width: max-content;
 }
+
+.icon {
+  font-size: 30px;
+  color: black;
+
+}
+
+.linkedin-icon {
+  color: #0a66c2;
+}
+
+.github-icon {
+  color: rgb(183, 53, 20);
+}
+
+.icon-container:hover > .linkedin-icon {
+  color: #0a7fc2;
+}
+
+.icon-container:hover > .github-icon {
+  color: rgb(204, 97, 48);
+}
