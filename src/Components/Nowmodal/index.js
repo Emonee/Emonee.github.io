@@ -9,7 +9,8 @@ export default function Nowmodal (props) {
   const handleClose = () => setShow(false)
   const handleShow = () => setShow(true)
 
-  const { textButton, title, text } = props
+  const { textButton, title, text, anchor, url } = props
+  const anchorElement = (anchor, url) => <a href={url} rel="noreferrer" target='_blank'>{anchor}</a>
 
   return (
     <>
@@ -21,7 +22,11 @@ export default function Nowmodal (props) {
         <Modal.Header closeButton>
           <Modal.Title>{title}</Modal.Title>
         </Modal.Header>
-        <Modal.Body>{text}</Modal.Body>
+        <Modal.Body>
+          {anchor && anchorElement(anchor, url)}
+          {anchor && ' '}
+          {text}
+        </Modal.Body>
       </Modal>
     </>
   )
